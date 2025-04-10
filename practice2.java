@@ -7,6 +7,7 @@ public class practice2 {
         System.out.println("enter your phrase: ");
         String result="";
         String word=scan.nextLine();
+        
         for(int i=0;i<word.length();i++){
             char w=word.charAt(i);
             if (result.indexOf(String.valueOf(w)) == -1){
