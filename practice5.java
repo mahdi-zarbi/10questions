@@ -8,6 +8,7 @@ public class practice5 {
         int nimeh=length/2;
         int avali=0;
         int dowomi=0;
+        
         for(int i=0;i<nimeh;i++){
             int adad=number.charAt(i)-'0';
             avali+=adad;
