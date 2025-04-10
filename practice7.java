@@ -27,7 +27,9 @@ public class practice7 {
         }
         if(result==meghdar){
             System.out.println("ok");
+        }else{
+            System.out.println("no");
         }
-        
+        scan.close();
     }
 }
