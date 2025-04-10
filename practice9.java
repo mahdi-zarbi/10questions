@@ -37,5 +37,6 @@ public class practice9 {
         for(int i=0;i<6;i++){
             System.out.println(kandid[i]+" = "+emtiaz[i]);
         }
+        scan.close();
     }
 }
