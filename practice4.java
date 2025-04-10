@@ -5,6 +5,7 @@ public class practice4 {
         Random ramdomnumber=new Random();
         int posht=0;
         int roo=0;
+        
         for(int i=0;i<1000;i++){
             boolean number=ramdomnumber.nextBoolean();
             if(number==false){
