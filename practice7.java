@@ -8,6 +8,7 @@ public class practice7 {
         int[] aval=new int[meghdar];
         int[] dowom=new int[meghdar];
         int result=0;
+        
         for(int i=0;i<meghdar;i++){
             System.out.println("vared conid1: ");
             aval[i]=scan.nextInt();
