@@ -10,33 +10,38 @@ public class practice03{
         int countParen = 0;
         int countBrace = 0;
         int countBracket = 0;
-        boolean balanced = true; // Assume balanced initially
+        boolean balanced = true;
 
         for (char c : expression.toCharArray()) {
             switch (c) {
                 case '(':
                     countParen++;
                     break;
+                    
                 case ')':
                     countParen--;
                     if (countParen < 0) {
                         balanced = false;
-                        break; // Exit the loop early
+                        break; 
                     }
                     break;
+                    
                 case '{':
                     countBrace++;
                     break;
+                    
                 case '}':
                     countBrace--;
                     if (countBrace < 0) {
                         balanced = false;
-                        break; // Exit the loop early
+                        break; 
                     }
                     break;
+                    
                 case '[':
                     countBracket++;
                     break;
+                    
                 case ']':
                     countBracket--;
                     if (countBracket < 0) {
