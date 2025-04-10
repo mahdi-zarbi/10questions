@@ -20,12 +20,12 @@ public class practice1 {
             int digit2 = (number2.length() - 1 - i >= 0) ? number2.charAt(number2.length() - 1 - i) - '0' : 0;
 
             int sum = digit1 + digit2 + carry;
-            result.insert(0, sum % 10); // Insert at the beginning
+            result.insert(0, sum % 10); 
             carry = sum / 10;
         }
 
         if (carry != 0) {
-            result.insert(0, carry); // Insert leading carry
+            result.insert(0, carry); 
         }
 
         System.out.println("Sum: " + result.toString());
