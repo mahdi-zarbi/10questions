@@ -9,11 +9,13 @@ public class practice8 {
         int[] arr=new int[andazeh];
         int check;
         int sum;
+
         for(int i=0;i<andazeh;i++){
             System.out.print("vared conide: ");
             arr[i]=scan.nextInt();
         }
         Arrays.sort(arr);
+        
         for(int i=0;i<andazeh;i++){
             sum=1;
             check=arr[i];
