@@ -19,5 +19,5 @@ public class practice5 {
         String result=(avali==dowomi)?"yes":"no";
         System.out.println("aya barabar ast? "+result);
         scan.close();
-    }
+    }    
 }
