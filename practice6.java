@@ -8,6 +8,7 @@ public class practice6 {
         int[]arr=new int[meghdar];
         int a=-1;
         int b=-1;
+
         for(int i=0;i<meghdar;i++){
             System.out.println("vared konid: ");
             arr[i]=scan.nextInt();
@@ -16,6 +17,7 @@ public class practice6 {
         int aval=scan.nextInt();
         System.out.println("meghdar dowom ra vared conid: ");
         int dowom=scan.nextInt();
+        
         for(int j=0;j<meghdar;j++){
             if(arr[j]==aval){
                 a=j;
